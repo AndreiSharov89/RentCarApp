@@ -73,11 +73,11 @@ public class MainActivity extends AppCompatActivity {
             if (db.customerDao().getAllCustomers().isEmpty()) {
                 addRandomCustomers();
             }
-            if (db.carDao().getAllCars().isEmpty()) {
-                addRandomCars();
-            }
             if (db.locationDao().getAllLocations().isEmpty()) {
                 addRandomLocations();
+            }
+            if (db.carDao().getAllCars().isEmpty()) {
+                addRandomCars();
             }
             if (db.reviewDao().getAllReviews().isEmpty()) {
                 addRandomReviews();
