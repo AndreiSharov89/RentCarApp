@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_add_client"
+        android:title="Запись"
+        android:icon="@drawable/ic_add_client"/>
+
+    <item
+        android:id="@+id/nav_client_list"
+        android:title="Инфо"
+        android:icon="@drawable/ic_list_clients"/>
+
+    <item
+        android:id="@+id/nav_car_list"
+        android:title="Авто"
+        android:icon="@drawable/ic_car_list"/>
+
+    <item
+        android:id="@+id/nav_reviews"
+        android:title="Отзывы"
+        android:icon="@drawable/ic_feedback"/>
+</menu>
