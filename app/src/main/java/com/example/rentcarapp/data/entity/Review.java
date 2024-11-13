@@ -18,6 +18,6 @@ public class Review {
         return "Отзыв: " + customerReview + "\n" +
                 "Оценка сервиса: " + serviceRating + "\n" +
                 "Оценка автомобиля: " + carRating + "\n" +
-                "Общая оценка: " + customerRating;
+                "Рейтинг пользователя: " + customerRating;
     }
 }

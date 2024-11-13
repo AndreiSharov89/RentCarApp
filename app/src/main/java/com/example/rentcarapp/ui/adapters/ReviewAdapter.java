@@ -34,7 +34,7 @@ public class ReviewAdapter extends RecyclerView.Adapter<ReviewAdapter.ReviewView
         holder.customerReview.setText(review.customerReview);
         holder.serviceRating.setText("Оценка сервиса: " + review.serviceRating);
         holder.carRating.setText("Оценка автомобиля: " + review.carRating);
-        holder.customerRating.setText("Общая оценка: " + review.customerRating);
+        holder.customerRating.setText("Рейтинг пользователя: " + review.customerRating);
     }
 
     @Override

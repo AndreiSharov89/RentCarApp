@@ -192,7 +192,7 @@ public class MainActivity extends AppCompatActivity {
 
             customer.segment = random.nextInt(5) + 1;
 
-            customer.rating = random.nextInt(10) + 1;
+            customer.rating = random.nextInt(6) + 1;
 
             db.customerDao().insertCustomer(customer);
         }
