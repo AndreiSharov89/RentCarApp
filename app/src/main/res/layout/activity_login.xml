@@ -36,7 +36,8 @@
         android:layout_height="wrap_content"
         android:hint="Пароль"
         android:inputType="textPassword"
-        android:paddingBottom="32dp" />
+        android:paddingBottom="32dp"
+        app:endIconMode="password_toggle" />
 
     <Button
         android:id="@+id/btnNext"
